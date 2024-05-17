@@ -12,3 +12,14 @@ As a baseline, the first three sentences of each article are used as summaries, 
 
 ### Trained Model
 The trained text summarization model is available in [this repository](https://huggingface.co/svetaku/mt5-small-finetuned-news-summary-kaggle).
+
+## Usage
+- Clone the repository
+  ```sh
+  git clone https://github.com/svetaku/news-summarization.git
+  cd news-summarization
+- Install dependencies
+  ```sh
+  pip install -r requirements.txt
+- Download the dataset from [Kaggle](https://www.kaggle.com/datasets/sunnysai12345/news-summary) or use your own
+- Run *summarization-with-mt5.ipynb* notebook using your Hugging Face Hub access token when requested
